@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    font-size: 20px;
+    background-color: black;
+    color: #6a93a6;
+    top: 0;
+    position: sticky;
+}
+
+#eat a {
+    animation: h2 3s infinite;
+    text-decoration: none;
+}
+
+@keyframes h2 {
+    0% {
+        color: black;
+    }
+    25% {
+        color: white;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: #6a93a6;
+    }
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.7s all ease;
+    letter-spacing: 2px;
+}
+
+.navbar ul li a:hover {
+    /* border-bottom: #6a93a6 1px solid; */
+    color: #aeaeae;
+    letter-spacing: 1px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+    margin: 150px 0px;
+}
+
+.leftpart {
+    width: 40%;
+}
+
+.leftpart span {
+    animation: h1 3s infinite;
+}
+
+@keyframes h1 {
+    0% {
+        color: black;
+    }
+    25% {
+        color: #3a465c;
+    }
+    50% {
+        color: #31343c;
+    }
+    100% {
+        color: #6a93a6;
+    }
+}
+
+.container img {
+    width: 400px;
+    height: auto;
+}
+
+.container h1 {
+    font-size: 80px;
+    color: #6a93a6;
+}
+
+.container p {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin: 40px 0px;
+    border-top: 2px solid black;
+    color: #6a93a6;
+}
+
+.explore {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px 100px;
+    flex-wrap: wrap;
+}
+
+.explore div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.explore h1 {
+    padding-bottom: 20px;
+}
+
+.explore p {
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+    padding: 0px 250px;
+    padding-bottom: 40px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input {
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #6a93a6;
+}
+
+.contact label {
+    padding-bottom: 5px;
+}
+
+.Submit {
+    color: white;
+    background-color: black;
+    padding: 10px 0px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    border: 0;
+    outline: 0;
+    letter-spacing: 2.5px;
+}
+
+.Submit:hover {
+    color: black;
+    background-color: #6a93a6;
+    letter-spacing: 1px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.buttons button {
+    padding: 20px;
+    margin: 0px 20px;
+    border-radius: 50px;
+    background-color: black;
+    align-items: center;
+    transition: 0.5s all ease;
+    border: none;
+}
+
+.buttons button:hover {
+    color: black;
+    background-color: #6a93a6;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    bottom: 0;
+    position: sticky;
+}
+
+footer p {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 8px;
+    letter-spacing: 1px;
+}
